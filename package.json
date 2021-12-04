@@ -1,0 +1,24 @@
+{
+  "name": "elementor-strap",
+  "version": "1.0.0",
+  "description": "Bootstrap Components for Elementor, wordpress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezabagheri/elementor-strap.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Elementor",
+    "wordpress"
+  ],
+  "author": "Reza Bagheri (Rezo)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rezabagheri/elementor-strap/issues"
+  },
+  "homepage": "https://github.com/rezabagheri/elementor-strap#readme"
+}
