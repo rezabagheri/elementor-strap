@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/rezabagheri/elementor-strap/issues"
   },
-  "homepage": "https://github.com/rezabagheri/elementor-strap#readme"
+  "homepage": "https://github.com/rezabagheri/elementor-strap#readme",
+  "dependencies": {
+    "laravel-mix": "^6.0.39"
+  }
 }
