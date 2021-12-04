@@ -1,27 +1,35 @@
 {
-  "name": "elementor-strap",
-  "version": "1.0.0",
-  "description": "Bootstrap Components for Elementor, wordpress",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rezabagheri/elementor-strap.git"
-  },
-  "keywords": [
-    "Bootstrap",
-    "Elementor",
-    "wordpress"
-  ],
-  "author": "Reza Bagheri (Rezo)",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/rezabagheri/elementor-strap/issues"
-  },
-  "homepage": "https://github.com/rezabagheri/elementor-strap#readme",
-  "dependencies": {
-    "laravel-mix": "^6.0.39"
-  }
+    "name": "elementor-strap",
+    "version": "1.0.0",
+    "description": "Bootstrap Components for Elementor, wordpress",
+    "main": "index.js",
+    "scripts": {
+        "prod:assets": "webpack --progress --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch:assets": "webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rezabagheri/elementor-strap.git"
+    },
+    "keywords": [
+        "Bootstrap",
+        "Elementor",
+        "wordpress"
+    ],
+    "author": "Reza Bagheri (Rezo)",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/rezabagheri/elementor-strap/issues"
+    },
+    "homepage": "https://github.com/rezabagheri/elementor-strap#readme",
+    "dependencies": {
+        "bootstrap": "^5.1.3",
+        "laravel-mix": "^6.0.39"
+    },
+    "devDependencies": {
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.44.0",
+        "sass-loader": "^12.3.0"
+    }
 }

@@ -1,0 +1,16 @@
+{
+    "name": "reza/elementor-strap",
+    "description": "Bootstrap components in Elementor",
+    "type": "plugin",
+    "license": "GPL3",
+    "autoload": {
+        "psr-4": {
+            "Reza\\ElementorStrap\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "reza bagheri",
+        "email": "rezabagheri@gmail.com"
+    }],
+    "require": {}
+}
